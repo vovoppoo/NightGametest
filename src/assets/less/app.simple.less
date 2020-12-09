@@ -1,0 +1,82 @@
+
+//初始化-------------------------
+//@charset "utf-8";
+//.reset();
+//.normalize();
+
+[class*=" i-icon-yc"], [class^=i-icon-yc] {
+  &::before {
+    font-family: "jjyc-f" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+}
+
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  //font-size: 100%;
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
+  //10 ÷ 16 × 100% = 62.5%
+  body {
+    position: relative;
+    //font-size: 0.625em;
+    margin: 0;
+    width: 100%;
+    min-width: 768px;
+    height: 100%;
+    text-decoration: none;
+    //font-family: "Microsoft YaHei", "微软雅黑", "STHeiti", Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    font-size: 1.6rem;
+    //1.4 × 10px = 14px
+    color: #222;
+    background-color: #FCFDFF;
+    line-height: 1.45;
+    overflow: hidden;
+    p {
+      margin: 0 0 0.6rem;
+    }
+
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+

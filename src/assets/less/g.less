@@ -1,0 +1,260 @@
+//全局架子----------------------------
+#app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 14px !important;
+}
+
+#app-bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #4c5f7e;
+  //background: linear-gradient(top, #123865, #4c707e);
+  //background: -webkit-linear-gradient(top, #123865, #4c707e);
+  color: #fff;
+}
+
+
+.home {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
+  .el-breadcrumb__item {
+    .el-breadcrumb__inner {
+      font-size: 28px;
+
+      &.is-link {
+        color: #606266;
+      }
+    }
+
+    .el-breadcrumb__separator {
+      font-size: 28px;
+    }
+  }
+
+  .route-row {
+    .el-breadcrumb__item {
+      .el-breadcrumb__inner {
+        font-size: 18px;
+
+        &.is-link {
+          color: #606266;
+        }
+      }
+
+      .el-breadcrumb__separator {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.table-el{
+  .table-head-class {
+    background-color: #F5F5F5 !important;
+    color: black;
+  }
+}
+
+.page-main {
+  position: relative;
+  margin: 20px 30px 0;
+  background: white;
+  //height: 100%;
+  padding-top: 60px;
+
+  .table-head-class {
+    background-color: #F5F5F5 !important;
+    color: black;
+  }
+
+  .head-row {
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    padding: 30px 40px 0px;
+
+    .title-row {
+      z-index: 2;
+    }
+
+    .back-icon-title {
+      position: absolute;
+      top: 26px;
+      left: 26px;
+      border: 1px solid #FEC38D;
+      background-color: #FEC38D;
+      border-radius: 15px;
+      height: 30px;
+      width: 30px;
+      z-index: 1;
+    }
+  }
+
+  .table-view {
+    padding: 10px;
+
+    .el-form {
+      flex-direction: column;
+
+      .el-form-item__content {
+        padding-right: 10px;
+      }
+    }
+
+    .search-row {
+      display: flex;
+      padding: 20px 20px 0;
+    }
+
+    .table-view-con {
+      padding: 10px 20px;
+    }
+
+    .table-footer {
+      padding-top: 10px;
+    }
+  }
+}
+
+.info-item-view {
+  padding-top: 30px;
+}
+
+#appComAlert {
+  position: relative;
+}
+
+input {
+  border: none;
+  font-size: 14px;
+  padding: 10px 20px;
+  background: #E8F0FE;
+}
+
+.el-menu--horizontal > .el-menu-item.is-active {
+  font-size: 20px !important;
+  font-weight: bold;
+}
+
+.el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
+  background-color: #FD7E3C !important;
+  color: white;
+}
+
+.el-menu--horizontal .el-menu-item:not(.is-disabled):focus {
+  background-color: transparent !important;
+  color: white;
+}
+
+.el-button.el-button--primary {
+  background-image: linear-gradient(to right, #FDAF3E, #FD7E3F);
+  border-color: #FDAF3E;
+  background-color: #FD7E3F;
+}
+
+.el-button.el-button--primary:focus {
+  background-color: #FD7E3F;
+  border-color: #FD7E3F;
+}
+
+.el-button.el-button--primary:active {
+  background-color: #FD7E3F;
+  border-color: #FD7E3F;
+}
+
+.el-button.el-button--primary:hover {
+  background-color: #FD7E3F;
+  border-color: #FD7E3F;
+}
+
+
+.el-tabs {
+  .el-tabs__header {
+    margin: 0px !important;
+
+    .el-tabs__nav-wrap {
+      background-color: white;
+
+
+      .el-tabs__item.is-top.is-active {
+        background-color: #FE7D35;
+        color: white;
+      }
+    }
+  }
+}
+
+.el-tabs.border-b {
+  .el-tabs__header {
+
+    .el-tabs__nav-wrap {
+      border-bottom: 1px solid #E4E7ED;
+    }
+  }
+}
+
+.form-view {
+
+  .el-form-item {
+    .el-form-item__label {
+      border: 1px solid #E4E7ED;
+      background-color: #E4E7ED;
+      font-weight: bold;
+      text-align: center;
+      padding: 0;
+      position: relative;
+    }
+    .tis-left-y{
+      position: absolute;
+      left: -152px;
+      top: 0;
+      width: 64px;
+      height: 64px;
+      font-size: 17px;
+      img{
+        position: absolute;
+        top: 3px;
+        left: -7px;
+        width: 17px;
+        height: 17px;
+      }
+    }
+
+    .input-value {
+      border: 1px solid #E4E7ED;
+      min-height: 40px;
+      padding-left: 20px;
+      &.gl{
+        background-color: #F5F7FA;
+        color: #C0C4CC;
+      }
+    }
+
+    .el-radio-group {
+      padding-left: 20px;
+    }
+  }
+
+  .el-tabs {
+    .el-tabs__header {
+      .el-tabs__nav-wrap {
+        border-bottom: 1px solid #E4E7ED;
+      }
+    }
+  }
+}
+
+.tis-info-view{
+  padding: 5px;
+  border: 1px solid #E4E7ED;
+}
+
+
+//全局架子---------------------------- end
